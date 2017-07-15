@@ -12,13 +12,17 @@ namespace MyHealthJournal
         {
             InitializeComponent();
 
-            NavigationService.NavigateAsync("NavigationPage/WelcomePage");
+            NavigationService.NavigateAsync("MenuPage/NavigationPage/WelcomePage");
         }
 
         protected override void RegisterTypes()
         {
             Container.RegisterTypeForNavigation<NavigationPage>();
+            Container.RegisterTypeForNavigation<MenuPage>();
+
             Container.RegisterTypeForNavigation<WelcomePage>();
+            Container.RegisterTypeForNavigation<MainPage>();
+
         }
     }
 }
