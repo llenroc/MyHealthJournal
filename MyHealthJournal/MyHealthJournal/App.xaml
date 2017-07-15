@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms"
+                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                        xmlns:prism="clr-namespace:Prism.Unity;assembly=Prism.Unity.Forms"
+                        x:Class="MyHealthJournal.App">
+
+
+
+    <Application.Resources>
+
+
+        <ResourceDictionary>
+
+            <!-- COLOUR PALETTE -->
+            <Color x:Key="MHJWhite">#ffffff</Color>
+            <Color x:Key="MHJLightGray">#CDCDCD</Color>
+            <Color x:Key="MHJGray">#E9E9E9</Color>
+            <Color x:Key="MHJBlack">#000000</Color>
+            <Color x:Key="MHJBlue">#2E86C4</Color>
+            <Color x:Key="MHJLightBlur">#3089CB</Color>
+            <Color x:Key="MHJYellow">#FFD000</Color>
+
+
+            <!-- FONT SIZES -->
+            <OnPlatform
+              x:Key="VerySmallFont"
+              x:TypeArguments="x:Double"
+              iOS="8"
+              Android="10"
+              WinPhone="10"/>
+
+            <OnPlatform
+              x:Key="SmallFont"
+              x:TypeArguments="x:Double"
+              iOS="10"
+              Android="13"
+              WinPhone="13"/>
+
+            <OnPlatform
+              x:Key="MediumFont"
+              x:TypeArguments="x:Double"
+              iOS="15"
+              Android="17"
+              WinPhone="17"/>
+
+            <OnPlatform
+              x:Key="BigFont"
+              x:TypeArguments="x:Double"
+              iOS="18"
+              Android="20"
+              WinPhone="20"/>   
+
+            <OnPlatform
+              x:Key="VeryBigFont"
+              x:TypeArguments="x:Double"
+              iOS="24"
+              Android="26"
+              WinPhone="26"/>
+
+        </ResourceDictionary>
+
+    </Application.Resources>
+
+
+
+</prism:PrismApplication>
