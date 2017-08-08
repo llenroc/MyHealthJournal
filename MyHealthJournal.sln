@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHealthJournal", "MyHealthJournal\MyHealthJournal\MyHealthJournal.csproj", "{DE67EB43-59BF-413C-A2C0-4AD91A61F4C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHealthJournal", "App\MyHealthJournal\MyHealthJournal.csproj", "{DE67EB43-59BF-413C-A2C0-4AD91A61F4C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHealthJournal.Droid", "MyHealthJournal\MyHealthJournal.Droid\MyHealthJournal.Droid.csproj", "{1893D80F-25C2-4B09-8E77-A47CEDA35F90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHealthJournal.Droid", "App\MyHealthJournal.Droid\MyHealthJournal.Droid.csproj", "{1893D80F-25C2-4B09-8E77-A47CEDA35F90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{31255135-CCF0-45CB-9733-1912BDC4B40A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{E8B3CDFF-2180-4076-9278-AD583363F7C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHealthJournalWebApi", "Backend\MyHealthJournalWebApi\MyHealthJournalWebApi.csproj", "{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,8 +29,17 @@ Global
 		{1893D80F-25C2-4B09-8E77-A47CEDA35F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1893D80F-25C2-4B09-8E77-A47CEDA35F90}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1893D80F-25C2-4B09-8E77-A47CEDA35F90}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE67EB43-59BF-413C-A2C0-4AD91A61F4C2} = {31255135-CCF0-45CB-9733-1912BDC4B40A}
+		{1893D80F-25C2-4B09-8E77-A47CEDA35F90} = {31255135-CCF0-45CB-9733-1912BDC4B40A}
+		{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7} = {E8B3CDFF-2180-4076-9278-AD583363F7C8}
 	EndGlobalSection
 EndGlobal
