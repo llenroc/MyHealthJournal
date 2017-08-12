@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{E8B3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHealthJournalWebApi", "Backend\MyHealthJournalWebApi\MyHealthJournalWebApi.csproj", "{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DEAEF4C2-B4E2-42D6-83FE-5E0C3C6E4D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHealthJournal.UnitTests", "Tests\MyHealthJournal.UnitTests\MyHealthJournal.UnitTests.csproj", "{6B2DE8E8-BEEF-4E88-95FE-06FE524D65CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B2DE8E8-BEEF-4E88-95FE-06FE524D65CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2DE8E8-BEEF-4E88-95FE-06FE524D65CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B2DE8E8-BEEF-4E88-95FE-06FE524D65CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2DE8E8-BEEF-4E88-95FE-06FE524D65CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +49,6 @@ Global
 		{DE67EB43-59BF-413C-A2C0-4AD91A61F4C2} = {31255135-CCF0-45CB-9733-1912BDC4B40A}
 		{1893D80F-25C2-4B09-8E77-A47CEDA35F90} = {31255135-CCF0-45CB-9733-1912BDC4B40A}
 		{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7} = {E8B3CDFF-2180-4076-9278-AD583363F7C8}
+		{6B2DE8E8-BEEF-4E88-95FE-06FE524D65CC} = {DEAEF4C2-B4E2-42D6-83FE-5E0C3C6E4D81}
 	EndGlobalSection
 EndGlobal
