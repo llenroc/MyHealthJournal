@@ -1,4 +1,6 @@
-﻿using MyHealthJournal.Views;
+﻿using Microsoft.Practices.Unity;
+using MyHealthJournal.Helpers;
+using MyHealthJournal.Views;
 using Prism.Unity;
 using Xamarin.Forms;
 
@@ -8,15 +10,11 @@ namespace MyHealthJournal
     {
         public App(IPlatformInitializer initializer = null) : base(initializer) { }
 
-        protected override void OnInitialized()
-        {
-            InitializeComponent();
-
-            NavigationService.NavigateAsync("MenuPage/NavigationPage/WelcomePage");
-        }
-
         protected override void RegisterTypes()
         {
+            Container.RegisterType<IUserSettings, UserSettings>(new ContainerControlledLifetimeManager());
+
+
             Container.RegisterTypeForNavigation<NavigationPage>();
             Container.RegisterTypeForNavigation<MenuPage>();
 
@@ -24,5 +22,16 @@ namespace MyHealthJournal
             Container.RegisterTypeForNavigation<MainPage>();
 
         }
+
+
+
+
+        protected override void OnInitialized()
+        {
+            InitializeComponent();
+
+            NavigationService.NavigateAsync("MenuPage/NavigationPage/WelcomePage");
+        }
+
     }
 }
