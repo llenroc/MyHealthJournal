@@ -153,6 +153,12 @@
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyHealthJournal\MyHealthJournal.csproj">
+      <Project>{de67eb43-59bf-413c-a2c0-4ad91a61f4c2}</Project>
+      <Name>MyHealthJournal</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

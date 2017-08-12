@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{31255135-CCF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{E8B3CDFF-2180-4076-9278-AD583363F7C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHealthJournalWebApi", "Backend\MyHealthJournalWebApi\MyHealthJournalWebApi.csproj", "{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHealthJournalWebApi", "Backend\MyHealthJournalWebApi\MyHealthJournalWebApi.csproj", "{285481F8-5BFA-455F-A6AB-9DD28CEEBAF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
